@@ -1,0 +1,67 @@
+h1 {
+  display: inline-block;
+  border: black 2px solid;
+  width: 250px;
+  height: 100px;
+  /*margin es del borde para afuera*/
+  margin-left: 150px;
+  margin-top: 150px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+  /*padding es del borde para adentro*/
+  padding-left: 10px;
+}
+#nav {
+  margin-left: 550px;
+}
+#cuadritos {
+  display: inline-block;
+}
+#profile {
+  display: inline-block;
+  border-radius: 20px;
+}
+#logo {
+  margin-left: 130px;
+  width: 200px;
+}
+#search {
+  width: 450px;
+  height: 30px;
+  border-radius: 10px;
+}
+.language {
+  color: blue;
+  border-left:50px;
+}
+.google {
+  margin-left: 70px;
+  width: 150px;
+}
+.lucky {
+  margin-left: 20px;
+  width: 150px;
+}
+main {
+  margin-top: 120px;
+}
+section {
+  margin-left: 200px;
+}
+h2 {
+  /* border: palevioletred 2px solid;
+  margin: 20px 100px 50px 80px; */
+}
+
+p {
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #999999;
+}
+footer {
+  margin-top: 340px;
+  background-color: #f3f3f3;
+}

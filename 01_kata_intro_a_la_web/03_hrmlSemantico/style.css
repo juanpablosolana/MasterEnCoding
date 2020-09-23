@@ -1,0 +1,33 @@
+nav {
+  background: #931a25;
+}
+li {
+  background: ;
+}
+a:hover {
+  color: blue;
+}
+
+h1 {
+  color: #81b214;
+  text-align: center;
+}
+
+body {
+  background-color: #ffcb8e;
+}
+
+p {
+  color: #e97171;
+  font-size: x-large;
+}
+
+img {
+  height: 600px;
+}
+
+.social {
+  height: 50px;
+}
+
+/* pererer */

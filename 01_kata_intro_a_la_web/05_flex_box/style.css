@@ -1,0 +1,59 @@
+.hero {
+  border: black 3px solid;
+  display: flex;
+   align-items: center;
+  justify-items:center;
+  justify-content: center;
+  justify-content: space-around;
+  height: 700px;
+  width: 730px;
+}
+.padre {
+  border: purple 3px solid;
+  height: 350px;
+  width: 300px;
+  display: flex;
+  /* acomoda elmentos horizontalmente o x */
+  justify-content: space-around;
+  /* acodmoda elementos verticalmente o y  */
+  align-items: center;
+  /* acomoda mis elementos en columna o en fila  */
+  flex-direction: column;
+}
+.madre {
+  border: purple 3px solid;
+  height: 350px;
+  width: 300px;
+  display: flex;
+  /* acomoda elmentos horizontalmente o x */
+  justify-content: space-around;
+  /* acodmoda elementos verticalmente o y  */
+  align-items: center;
+  /* acomoda mis elementos en columna o en fila  */
+  flex-direction: column;
+  justify-content: space-around;
+}
+.hijo {
+  border: red 3px solid;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 200px;
+  justify-content: space-around;
+}
+.hijo2 {
+  border: blue 3px solid;
+   display:flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  width: 200px;
+  flex-direction: column;
+  
+}
+.nieto {
+  border: green 3px solid;
+  height: 15px;
+  width: 30px;
+}
