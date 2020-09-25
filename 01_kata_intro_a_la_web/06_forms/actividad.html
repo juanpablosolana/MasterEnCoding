@@ -13,49 +13,68 @@
         <label class="note"
           >Please fill in this form to create an account.</label
         >
+        <form>
         First Name
         <input
           type="text"
           class="signUp"
           id=""
           placeholder="Enter First Name"
-          requiere
-        />
+          required
+        >
         Last Name
         <input
           type="text"
           class="signUp"
           id=""
           placeholder="Enter Last Name"
-          requiere
-        />
+          required
+        >
         Email
         <input
           type="email"
           class="signUp"
           id=""
           placeholder="Enter Email"
-          requiere
-        />
+          required
+        >
+        Age
+        <input
+          type="number"
+          class="signUp"
+          id=""
+          placeholder="Age"
+          max="99" min="18"
+          required
+        >
+        Phone
+        <input
+          type="tel"
+          class="signUp"
+          id=""
+          placeholder="+52(771)0000000"
+          pattern="[\+]\d{2}[\(]\d{3}[\)]\d{7}"
+          required
+        >
         Password
         <input
           type="password"
           class="signUp"
           id=""
           placeholder="Enter Password"
-          requiere
-        />
+          required
+        >
         Repeat Password
         <input
           type="password"
           class="signUp"
           id=""
           placeholder="Repeat Password"
-          requiere
-        />
+          required
+        >
         <div>
           <input type="checkbox" name="" id="" /><samp class="note"
-            >Remember me</samp
+            required>Remember me</samp
           >
           <br />
           <label for="" class="note">
@@ -64,7 +83,7 @@
           </label>
         </div>
       </div>
-      <input type="submit" value="Sign Up" class="SignUpButton" />
+      <button type="submit" class="SignUpButton">Sign Up</button></form>
     </div>
   </body>
 </html>
