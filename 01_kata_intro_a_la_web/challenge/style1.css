@@ -1,0 +1,129 @@
+.container {
+  width: 100%;
+  border: 5px red solid;
+  display: flex;
+  justify-content: center;
+}
+
+.back {
+  display: flex;
+  width: 10%;
+  border: 2px #ff00b3 solid;
+  padding-left: 1px;
+}
+.space {
+  width: 1%;
+}
+.main {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 100%;
+}
+
+.mainBox {
+  height: 75%;
+  border-top-left-radius: 2px;
+  border: 2px lightgray solid;
+  display: flex;
+}
+.right {
+  width: 50%;
+}
+.left {
+  border: 5px royalblue solid;
+  width: 50%;
+}
+.options {
+  display: flex;
+  align-items: center;
+}
+.descTxt {
+  border: peru 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+.icons {
+  border: 2px springgreen solid;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  border: 2px yellow solid;
+  display: flex;
+  justify-content: flex-end;
+}
+.btnOptions {
+  background: red;
+  color: white;
+  border-radius: 40px;
+}
+.btnFollow {
+  border-radius: 50%;
+  width: auto;
+  height: 30px;
+}
+.description {
+  border: 2px orangered solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgOptions {
+  width: 25px;
+  height: 25x;
+}
+.tablero {
+  width: 40px;
+  border-radius: 50px;
+}
+.inpComment {
+  border-radius: 50px;
+  width: 80%;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.img1 {
+    width: 400px;
+}
+
+.img2 {
+    width: 489px;
+}
+
+.img3 {
+    width: 400px;
+}
+
+.img4 {
+    width: 460px;
+}
+
+.img5 {
+    width: 400px;
+}
+
+.img6 {
+    width: 400px;
+}
+
+.img7 {
+    width: 400px;
+}
+
+.img8 {
+    width: 400px;
+}
+
+.img9 {
+    width: 400px;
+}
+
+.img10 {
+    width: 400px;
+}

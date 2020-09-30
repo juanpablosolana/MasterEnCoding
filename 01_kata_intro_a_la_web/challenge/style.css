@@ -1,0 +1,44 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.img1 {
+    width: 400px;
+}
+
+.img2 {
+    width: 489px;
+}
+
+.img3 {
+    width: 400px;
+}
+
+.img4 {
+    width: 460px;
+}
+
+.img5 {
+    width: 400px;
+}
+
+.img6 {
+    width: 400px;
+}
+
+.img7 {
+    width: 400px;
+}
+
+.img8 {
+    width: 400px;
+}
+
+.img9 {
+    width: 400px;
+}
+
+.img10 {
+    width: 400px;
+}
