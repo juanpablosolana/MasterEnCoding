@@ -70,7 +70,6 @@
   display: flex;
   flex-direction: column;
 }
-
 .imgOptions {
   width: 25px;
   height: 25x;
@@ -83,47 +82,68 @@
   border-radius: 50px;
   width: 80%;
 }
+.more {
+  border: skyblue 2px solid;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .contenedor {
-    display: grid;
-    grid-template-columns: auto auto auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .img1 {
-    width: 400px;
+  width: 400px;
+  border-radius: 50px 50px;
 }
 
 .img2 {
-    width: 489px;
+  width: 489px;
+  border-radius: 50px 50px;
 }
 
 .img3 {
-    width: 400px;
+  width: 400px;
+  border-radius: 50px 50px;
 }
 
 .img4 {
-    width: 460px;
+  width: 460px;
+  border-radius: 50px 50px;
 }
 
 .img5 {
-    width: 400px;
+  width: 400px;
+  border-radius: 50px 50px;
 }
 
 .img6 {
-    width: 400px;
+  width: 400px;
+  border-radius: 50px 50px;
 }
 
 .img7 {
-    width: 400px;
+  width: 400px;
+  border-radius: 50px 50px;
 }
 
 .img8 {
-    width: 400px;
+  width: 400px;
+  border-radius: 50px 50px;
 }
 
 .img9 {
-    width: 400px;
+  width: 400px;
+  border-radius: 50px 50px;
 }
 
 .img10 {
-    width: 400px;
+  width: 400px;
+  border-radius: 50px 50px;
 }
